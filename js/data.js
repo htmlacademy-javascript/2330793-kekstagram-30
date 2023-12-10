@@ -29,28 +29,11 @@ const NAMES = [
   'Егор',
 ];
 
-const PHOTO_COUNT = 25;
+const PHOTOCOUNT = 25;
 
 const likesRange = {
   MIN: 15,
-  MAX: 200,
-};
-
-const commentsRange = {
-  MIN: 0,
-  MAX: 30,
-};
-
-const avatarRange = {
-  MIN: 1,
-  MAX: 6,
-};
-
-const PHOTO_COUNT = 25;
-
-const likesRange = {
-  MIN: 15,
-  MAX: 200,
+  MAX: 200
 };
 
 const commentsRange = {
