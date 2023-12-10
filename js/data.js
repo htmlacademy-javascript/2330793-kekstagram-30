@@ -29,7 +29,7 @@ const NAMES = [
   'Егор',
 ];
 
-const PHOTOCOUNT = 25;
+const PHOTO_COUNT = 25;
 
 const likesRange = {
   MIN: 15,
@@ -48,9 +48,6 @@ const avatarRange = {
 
 const getRandomInt = (min, max) =>
   Math.floor(Math.random() * (max - min + 1)) + min;
-
-const getRandomArrayElement = (elements) =>
-  elements[getRandomInt(0, elements.length - 1)];
 
 const createComment = (id) => ({
   id: ++id,
@@ -77,4 +74,4 @@ const createComments = () =>
 const createPhotos = () =>
   Array.from({ length: PHOTO_COUNT }, (_, index) => createPhoto(index + 1));
 
-export {createComments, createPhotos};
+export {createComments, createPhotos, getRandomArrayElement};
